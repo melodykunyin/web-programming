@@ -1,0 +1,272 @@
+<html>
+  <head>
+    <title>Grid 1 Demo</title>
+    <style>
+      /*  body * {  border: 1px solid red; }*/
+       div {
+          background: rgba(237,208,190,0.6);
+          width: 100%;
+          height: 100%;
+        }
+
+        section {
+          display: grid;
+          height: 100%;
+          width:100%;
+          grid-template-columns: auto-fit, minmax(100px, 1fr);
+          grid-template-rows: repeat(14, 1fr);
+          background:linear-gradient(rgba(255,83,77,0.6), rgba(37,198,252,0.6));
+          grid-row-gap: 10px;
+
+        }
+        .a {
+          grid-row: 1/14;
+          background: linear-gradient(rgba(255,96,24,0.3), rgba(0,255,251,0.6));
+          z-index: 10;
+          display:grid;
+          grid-template-columns: repeat(7, 1fr);
+          grid-template-rows: repeat(7, 1fr);
+        /*  align-items: center;
+          justify-items: center;*/
+
+        }
+
+        .circle1 {
+          height: 100px;;
+          width: 100px;
+          border-radius: 50px;
+          position: absolute;
+          background: linear-gradient(rgba(0,255,251,0.6), rgba(255,96,24,0.3));
+          z-index: 2;
+          display:grid;
+        }
+
+        .circle2 {
+          height: 150px;;
+          width: 150px;
+          border-radius: 75px;
+          position: absolute;
+          background: linear-gradient(rgba(0,255,251,0.8), rgba(255,96,24,0.7));
+          z-index: 2;
+          display:grid;
+        }
+
+        .circle3 {
+          height: 200px;;
+          width: 200px;
+          border-radius: 100px;
+          position: absolute;
+          background: linear-gradient(rgba(0,255,251,0.6), rgba(255,96,24,0.6));
+          z-index: 2;
+          display:grid;
+        }
+
+        .circle4 {
+          height: 250px;;
+          width: 250px;
+          border-radius: 125px;
+          position: absolute;
+          background: linear-gradient(rgba(0,255,251,0.6), rgba(255,96,24,0.3));
+          z-index: 2;
+          display:grid;
+        }
+
+        .b {
+          grid-row: 8/14;
+          background: linear-gradient(rgba(224,54,54,0.7), rgba(37,198,252,0.6));
+          z-index: 0;
+          display:grid;
+          grid-template-columns: repeat(7, 1fr);
+          grid-template-rows: repeat(7, 1fr);
+          grid-gap:20px;
+        /*  align-items: center;
+          justify-items: center;*/
+
+        }
+
+
+
+        .c {
+          grid-row: 5/14;
+
+          background: linear-gradient(rgba(224,54,54,0.7), rgba(37,198,252,0.6));
+          z-index: 7;
+          display:grid;
+          grid-template-columns: repeat(7, 1fr);
+          grid-template-rows: repeat(7, 1fr);
+          grid-gap:20px;
+        /*  align-items: center;
+          justify-items: center;*/
+
+        }
+        .d {
+          grid-row: 3/14;
+
+          background: linear-gradient(rgba(37,198,252,0.6), rgba(224,54,54,0.7));
+          z-index: 9;
+          display:grid;
+          grid-template-columns: repeat(7, 1fr);
+          grid-template-rows: repeat(7, 1fr);
+          grid-gap:10px;
+        /*  align-items: center;
+          justify-items: center;*/
+        }
+
+        .square1 {
+          grid-row: 1/14;
+          height: 200px;;
+          width: 200px;
+
+          background: rgba(0,255,251,0.8);
+          position: absolute;
+          z-index: 2;
+          display:grid;
+        }
+        .square2 {
+          grid-row: 1/14;
+          height: 140px;;
+          width: 140px;
+          transform: rotate(45deg);
+          background: rgba(255,96,24,0.3);
+          z-index: 2;
+          position: absolute;
+          display:grid;
+        }
+        .square3 {
+          grid-row: 1/14;
+          height: 200px;;
+          width: 200px;
+          transform: rotate(60deg);
+          background: rgba(224,54,54,0.4);
+
+          z-index: 2;
+          display:grid;
+        }
+
+        .triangle1{
+          border-left: 50px solid transparent;
+		     	border-right: 50px solid transparent;
+		     	border-bottom: 100px solid rgba(224,54,54,0.7);
+		     	top:220px;
+		    	left:210px;
+        }
+
+        .triangle2{
+          border-left: 50px solid transparent;
+		     	border-right: 50px solid transparent;
+		     	border-bottom: 100px solid rgba(37,198,252,0.6)
+          transform: rotate(90deg);
+		     	top:220px;
+		    	left:210px;
+        }
+
+        .e {
+          grid-row: 1/14;
+
+          background: linear-gradient(rgba(224,54,54,0.7), rgba(37,198,252,0.6));
+          z-index: 9;
+          display:grid;
+          grid-template-columns: repeat(7, 1fr);
+          grid-template-rows: repeat(7, 1fr);
+          grid-gap:10px;
+        /*  align-items: center;
+          justify-items: center;*/
+        }
+
+        .f{
+        grid-row: 4/14;
+        background: linear-gradient(rgba(37,198,252,0.6), rgba(224,54,54,0.7));
+        z-index: 9;
+        display:grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-gap:10px;
+                /*  align-items: center;
+                  justify-items: center;*/
+       }
+
+       .g{
+        grid-row: 5/14;
+        background: linear-gradient(rgba(224,54,54,0.7), rgba(37,198,252,0.6));
+        z-index: 9;
+        display:grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-gap:10px;
+       }
+      .h{
+        grid-row: 8/14;
+        background: linear-gradient(rgba(37,198,252,0.6), rgba(224,54,54,0.7));
+        z-index: 9;
+        display:grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-gap:10px;
+        }
+
+        .i{
+         grid-row: 1/14;
+         background: linear-gradient(rgba(224,54,54,0.7), rgba(37,198,252,0.6));
+         z-index: 9;
+         display:grid;
+         grid-template-columns: repeat(7, 1fr);
+         grid-template-rows: repeat(7, 1fr);
+         grid-gap:10px;
+        }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <section>
+      <div class="a">
+        <div class="circle1">
+        </div>
+
+        <div class="circle2">
+        </div>
+
+        <div class="circle3">
+        </div>
+
+        <div class="circle4">
+        </div>
+
+
+      </div>
+      <div class="b">
+        <div class="triangle1">
+        </div>
+        <div class="triangle2">
+        </div>
+
+
+
+      </div>
+      <div class="c">
+        <div class="square1">
+        </div>
+
+        <div class="square2">
+        </div>
+
+        <div class="square3">
+        </div>
+
+
+      </div>
+      <div class="d"></div>
+      <div class="e"></div>
+      <div class="f"></div>
+      <div class="g"></div>
+      <div class="h"></div>
+      <div class="i"></div>
+      <div class="j"></div>
+
+    </section>
+
+  </body>
+
+</html>

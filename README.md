@@ -2,13 +2,13 @@
 
 ## Objects
 
-* https://melodykunyin.github.io/web-programming/lamp2.html
-* https://melodykunyin.github.io/web-programming/chair.html
-* https://melodykunyin.github.io/web-programming/glasses.html
-* https://melodykunyin.github.io/web-programming/lock.html
-* https://melodykunyin.github.io/web-programming/trashbin.html
+* https://melodykunyin.github.io/web-programming/5_objects/lamp2.html
+* https://melodykunyin.github.io/web-programming/5_objects/chair.html
+* https://melodykunyin.github.io/web-programming/5_objects/glasses.html
+* https://melodykunyin.github.io/web-programming/5_objects/lock.html
+* https://melodykunyin.github.io/web-programming/5_objects/trashbin.html
 
 ## Compositions
 
-* https://melodykunyin.github.io/web-programming/composition1.html
-* https://melodykunyin.github.io/web-programming/composition2.html
+* https://melodykunyin.github.io/web-programming/2_compositions/composition1.html
+* https://melodykunyin.github.io/web-programming/2_compositions/composition2.html

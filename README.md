@@ -1,8 +1,6 @@
 # web-programming
 
 
-## Week1_inclass
-* https://melodykunyin.github.io/web-programming/Week1_inclass/flag.html
 ## Objects
 
 * https://melodykunyin.github.io/web-programming/5_objects/lamp2.html

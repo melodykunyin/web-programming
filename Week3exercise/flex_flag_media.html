@@ -1,0 +1,63 @@
+<html>
+  <head>
+      <style>
+        * { margin: 0; }
+
+        section {
+        display: flex;
+        background: green;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .green{
+          display: flex;
+          background: green;
+
+
+        }
+        .yellow {
+          display: flex;
+
+          background: black;
+
+           }
+        .red {
+          display: flex;
+          background: red;
+
+        }
+
+        div {
+          flex-grow: 1;
+          flex-shrink: 1;
+          flex-basis: 200px;
+          height:300px;
+          }
+
+      @media (max-width: 700px) {
+           .yellow { background: pink;}
+           section { flex-direction: column; }
+           div { width: 100%; height: 200px;}
+         }
+         @media (max-width: 500px) {
+           .yellow {  background: blue; }
+       }
+
+
+
+
+      </style>
+  </head>
+  <body>
+      <section>
+
+        <div class="green">21d</div>
+        <div class="yellow">ewr</div>
+        <div class="red">rew </div>
+
+
+      </section>
+  </body>
+<html>

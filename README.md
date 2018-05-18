@@ -17,3 +17,8 @@
 ## Animation
 
 * https://melodykunyin.github.io/web-programming/animation1/animation1.html
+
+## Week1 in class
+
+* https://melodykunyin.github.io/web-programming/week1exercise/flag.html
+

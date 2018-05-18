@@ -20,5 +20,5 @@
 
 ## Week1 in class
 
-* https://melodykunyin.github.io/web-programming/week1exercise/flag.html
+* https://melodykunyin.github.io/web-programming/exercise/Introduction.html
 
